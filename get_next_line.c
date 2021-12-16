@@ -123,6 +123,5 @@ char	*get_next_line(int fd)
 		return (NULL);
 	line = get_line(save);
 	save = get_rest(save);
-	printf("%s", save);
 	return (line);
 }
